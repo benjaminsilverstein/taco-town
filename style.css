@@ -1,0 +1,325 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+	height: 100%;
+	font-size: 16px;
+}
+
+body {
+	background-image: url(images/food-truck_tal_shahar.jpg);
+	height: 100%;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: 'Museo Slab', sans-serif;
+	margin: 0;
+}
+
+header {
+	padding: 0% 0%;
+	width: 100%;
+	margin-top: 3%;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: rgba(255,255,255, 0.7);
+	box-shadow: 5px 3px 0px #000000;
+	filter: blur(10px);
+	z-index: 1;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+    }
+
+ nav {
+	background-color: white;
+	opacity: .9;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	z-index: 1000000000;
+ }
+
+  nav ul {
+	list-style: none;
+	margin: 0px;
+
+}
+
+nav li {
+	width: 25%;
+	float: left;
+	text-transform: uppercase;
+	font-family: 'league gothic', impact, sans-serif;
+	display: inline;
+	font-size: 1.5em;
+	text-align: center;
+	text-shadow: 1px 1px 0px white;
+	border-right: 1px black solid;
+}
+
+nav li:hover {
+	color: red;
+	opacity: .7;
+	transition: .3s;
+}
+
+.socicon:hover {
+	transition: .3s;
+	color: #00aced;
+}
+
+nav a {
+	color: black;
+	text-decoration: none;
+}
+
+
+a {
+	margin: 0;
+	padding: 0;
+}
+
+#lastnav li {
+	border-right: none;
+}
+
+
+
+.wrapper {
+	padding: 5% 5%;
+	width: 90%;
+	margin-top: 4%;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: rgba(255,255,255, 0.8);
+	box-shadow: 5px 3px 5px #000000;
+	filter: blur(10px);
+	position: relative;
+	z-index: 1;
+}
+
+.truck {
+	background-image: url(images/foodtruck.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 100px;
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	padding: 0;
+	display: block;
+}
+
+.instagram {
+	width: 60px;
+	margin: 0px;
+	padding: 0;
+	position: fixed;
+	display: block;
+	left: 0px;
+	top: 35.4%;
+	z-index: 10000;
+	margin: 0;
+	padding: 0;
+}
+.twitter {
+	width: 60px;
+	margin: 0px;
+	position: fixed;
+	display: block;
+	left: 0px;
+	top: 43%;
+	z-index: 10000;
+	margin: 0;
+	padding: 0;
+}
+
+.facebook {
+	width: 60px;
+	margin: 0px;
+	padding: 0;
+	position: fixed;
+	display: block;
+	left: 0px;
+	top: 53%;
+	z-index: 10000;
+	margin: 0;
+	padding: 0;
+
+}
+
+.pinterest {
+	width: 60px;
+	margin: 0px;
+	padding: 0;
+	position: fixed;
+	display: block;
+	left: 0px;
+	top: 63%;
+	z-index: 10000;
+	margin: 0;
+	padding: 0;
+
+}
+
+
+h1 {
+font-family: 'league gothic', impact, sans-serif;
+text-transform: uppercase;
+font-size: 3em;
+margin: 0;
+padding: 0;
+text-align: center;
+
+}
+
+/*.headings {
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	font-family: 'news706 bt', serif;
+	font-size: 1.3em;
+	margin-top: -5px;
+	margin-bottom: 5px;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 900;
+
+}*/
+
+
+.scrumptious {
+	background-image: url(images/tacos.jpg);
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+	font-size: 10em;
+	color: rgba(255,255,255, 0.8);
+	text-align: center;
+	font-family: 'league gothic', impact, sans-serif;
+	font-weight: 900;
+	 -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black;
+   opacity: .7;
+   border: 3px solid gray;
+   line-height: .88em;
+}
+
+.pagename {
+	padding-top: 12px;
+}
+
+::selection {
+  background: red; 
+  }
+
+/*==========MENU SECTION=============*/
+
+.menu h2 {
+font-family: 'news706 BT', sans-serif;
+font-weight: 900;
+color: #e74c3c;
+text-transform: uppercase;
+font-style: oblique;
+margin: 10px 0px;
+padding: 0;
+font-size: 2em;
+border-bottom: 1px #e74c3c solid;
+}
+
+.menu p {
+	margin-top: 0;
+
+
+}
+
+.menu: {
+	width: 100%;
+
+}
+
+.menu-image {
+	width: 20px;
+}
+
+.menu-image:hover {
+	zoom: 120%;
+	transform: rotate(10deg);
+	transition: .4;
+
+
+
+
+}
+
+.menu-items {
+width: 100%;
+float: left;
+}
+
+.menu-item {
+	float: left;
+	width: 33%;
+	padding: 0px 10px;
+	min-width: 150px;
+
+
+}
+
+.item-name {
+	font-family: 'league gothic', impact, sans-serif;
+	font-weight: 600;
+	text-transform: uppercase;
+	font-size: 1.6em;
+	margin: 0;
+	padding: 0;
+
+}
+
+
+
+
+
+@font-face {
+    font-family: 'socicon';
+    src: url('font/socicon-webfont.eot');
+    src: url('font/socicon-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/socicon-webfont.woff') format('woff'),
+         url('font/socicon-webfont.ttf') format('truetype'),
+         url('font/socicon-webfont.svg#sociconregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+.socicon {
+    font-family: 'socicon' !important;
+    color: white;
+    padding-right: 10px;
+    font-size: 1.2em;
+}
+
+.footer {
+	background: black;
+}
+
+
+
+footer a {
+	text-decoration: none;
+}
+
+.socialshares {
+	text-align: right;
+}
+
